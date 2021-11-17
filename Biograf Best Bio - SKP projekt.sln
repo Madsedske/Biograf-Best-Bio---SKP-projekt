@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Biograf Best Bio - SKP projekt", "Biograf Best Bio - SKP projekt\Biograf Best Bio - SKP projekt.csproj", "{7D2E1DC5-E3CC-4BFB-A93F-8A643626E821}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7D2E1DC5-E3CC-4BFB-A93F-8A643626E821}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D2E1DC5-E3CC-4BFB-A93F-8A643626E821}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D2E1DC5-E3CC-4BFB-A93F-8A643626E821}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D2E1DC5-E3CC-4BFB-A93F-8A643626E821}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CD17C618-E853-4FB7-AEE4-6194A8E2180F}
+	EndGlobalSection
+EndGlobal
