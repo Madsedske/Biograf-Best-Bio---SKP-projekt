@@ -16,12 +16,12 @@
                                         <label class="form-label" for="typeEmailX"><b>Email</b></label>
                                         <asp:TextBox type="email" placeholder="Enter Email" name="eml" ID="typeEmailX" runat="server" class="form-control form-control-lg"></asp:TextBox>
                                     </div>
-                                    <div class="form-outline form-white mb-4">
-                                        <label class="form-label" for="typePasswordX"><b>Password </b></label>
-                                        <<asp:TextBox type="password" placeholder="Enter Password" name="psw" runat="server" id="typePasswordX" class="form-control form-control-lg" ></asp:TextBox>
+                                    <div class="form-outline form-white mb-4">     
+                                        <label class="form-label" for="typePasswordX"><b>Password</b></label>
+                                        <asp:TextBox type="password" placeholder="Enter Password" name="psw" runat="server" id="typePasswordX" class="form-control form-control-lg"></asp:TextBox>
                                     </div>
                                     <p class="small mb-5 pb-lg-2"><a class="text-white-50" href="#!">Forgot password?</a></p>
-                                     <asp:Button type="submit" runat="server" Text= "Login" OnClick="Login_User" class="signupbtn btn btn-outline-light btn-lg px-5"></asp:Button>
+                                     <asp:Button type="submit" runat="server" Text= "Login" OnClick="Login_User" class="btn btn-outline-light btn-lg px-5"></asp:Button>
                                 </div>
                                 <div>
                                     <p class="mb-0">Don't have an account? <a href="Register.aspx" class="text-white-50 fw-bold">Sign Up</a></p>

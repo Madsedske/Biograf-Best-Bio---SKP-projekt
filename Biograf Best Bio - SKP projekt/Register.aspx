@@ -18,7 +18,7 @@
                                     </div>
                                     <div class="form-outline form-white mb-5">
                                         <label class="form-label" for="typePasswordX"><b>Password </b></label>
-                                        <<asp:TextBox type="password" placeholder="Enter Password" name="psw" runat="server" id="typePasswordX" class="form-control form-control-lg" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" ></asp:TextBox>
+                                        <asp:TextBox type="password" placeholder="Enter Password" name="psw" runat="server" id="typePasswordX" class="form-control form-control-lg" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" ></asp:TextBox>
                                     </div>
                                     <p class="mb-5">By creating an account you agree to our <a href="#" style="color: dodgerblue">Terms & Privacy</a>.</p>
 
