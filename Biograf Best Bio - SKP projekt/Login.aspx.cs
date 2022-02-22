@@ -24,7 +24,7 @@ namespace Biograf_Best_Bio___SKP_projekt
 
             using (SqlConnection conn = new SqlConnection())
             {
-                conn.ConnectionString = ConfigurationManager.ConnectionStrings["Users"].ConnectionString;
+                conn.ConnectionString = ConfigurationManager.ConnectionStrings["Users"].ConnectionString; 
                 conn.Open();
                 using (SqlCommand cmd = new SqlCommand("select * from Users where Username = @Username and Password = @Password", conn))
                 {
