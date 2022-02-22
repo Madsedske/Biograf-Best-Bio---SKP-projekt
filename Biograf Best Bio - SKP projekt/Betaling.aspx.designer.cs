@@ -13,5 +13,6 @@ namespace Biograf_Best_Bio___SKP_projekt
 
     public partial class Betaling
     {
+        
     }
 }
