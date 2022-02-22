@@ -73,7 +73,7 @@
                                 </div>
                                 <div class="col-md-6">
                                     <div class="inputbox mt-3 mr-2">
-                                        <input type="text" name="number" class="form-control" required="required">
+                                        <input type="text" name="number" class="form-control" required="required"> 
                                         <span>Husnummer</span> </div>
                                 </div>
                             </div>
