@@ -15,6 +15,33 @@ namespace Biograf_Best_Bio___SKP_projekt
     {
 
         /// <summary>
+        /// typeNameX control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox typeNameX;
+
+        /// <summary>
+        /// typeAdressX control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox typeAdressX;
+
+        /// <summary>
+        /// typePhoneX control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox typePhoneX;
+
+        /// <summary>
         /// typeEmailX control.
         /// </summary>
         /// <remarks>

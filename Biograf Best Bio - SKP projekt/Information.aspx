@@ -32,7 +32,7 @@
                             <span class="carousel-control-next-icon"></span>
                         </button>
                     </div>
-                </div>
+                </div>     
             </div>
         </div></asp:Content>
 

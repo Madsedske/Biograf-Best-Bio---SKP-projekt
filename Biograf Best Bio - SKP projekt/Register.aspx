@@ -12,19 +12,39 @@
                                     <h2 class="fw-bold mb-2 text-uppercase">Sign Up</h2>
                                     <p class="text-white-50 mb-5">Please fill in this form to create an account.</p>
                                     <hr>
+                                    <!-- NAME -->
+                                    <div class="form-outline form-white mb-4">
+                                        <label class="form-label" for="typeNameX"><b>Name</b></label>
+                                        <asp:TextBox type="name" placeholder="Enter Name" name="name" ID="typeNameX" runat="server" class="form-control form-control-lg"></asp:TextBox>
+                                    </div>
+                                    <!-- ADRESS -->
+                                    <div class="form-outline form-white mb-4">
+                                        <label class="form-label" for="typeAdressX"><b>Adress</b></label>
+                                        <asp:TextBox type="adress" placeholder="Enter Adress" name="adress" ID="typeAdressX" runat="server" class="form-control form-control-lg"></asp:TextBox>
+                                    </div>
+                                    <!-- PHONE -->
+                                    <div class="form-outline form-white mb-4">
+                                        <label class="form-label" for="typePhoneX"><b>Phonenumber</b></label>
+                                        <asp:TextBox type="phone" placeholder="Enter Number" name="number" ID="typePhoneX" runat="server" class="form-control form-control-lg"></asp:TextBox>
+                                    </div>
+                                    <!-- EMAIL -->
                                     <div class="form-outline form-white mb-4">
                                         <label class="form-label" for="typeEmailX"><b>Email</b></label>
                                         <asp:TextBox type="email" placeholder="Enter Email" name="eml" ID="typeEmailX" runat="server" class="form-control form-control-lg"></asp:TextBox>
                                     </div>
+                                    <!-- PASSWORD -->
                                     <div class="form-outline form-white mb-5">
                                         <label class="form-label" for="typePasswordX"><b>Password </b></label>
                                         <asp:TextBox type="password" placeholder="Enter Password" name="psw" runat="server" id="typePasswordX" class="form-control form-control-lg" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" ></asp:TextBox>
                                     </div>
+
                                     <p class="mb-5">By creating an account you agree to our <a href="#" style="color: dodgerblue">Terms & Privacy</a>.</p>
 
                                     <div class="clearfix mb-5">
-                                        <button type="button" onclick="window.location.href='Login.aspx';" class="cancelbtn btn btn-outline-light btn-lg px-5">Cancel</button>
-                                        <asp:Button type="submit" runat="server" Text= "Sign Up" OnClick="Create_User" class="signupbtn btn btn-outline-light btn-lg px-5"></asp:Button>
+                                         <asp:Button type="submit" runat="server" Text= "Sign Up" OnClick="Create_User" class=" btn btn-outline-light btn-lg px-5"></asp:Button>
+                                        <br />
+                                        <br />                                 
+                                        <button type="button" onclick="window.location.href='Login.aspx';" class=" btn btn-outline-light btn-lg px-5">Back to login</button>                                       
                                     </div>
                                 </div>
                             </div>
