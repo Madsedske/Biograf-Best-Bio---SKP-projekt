@@ -9,14 +9,22 @@
     </div>
     <div class="container">
         <div class="row">
-            <div class="col-lg-4">
+            <div class="col-lg-2">
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-8">
                 <div class="card">
-                    <img class="card-img-top" src="\Pictures\scarymovie.png" alt="Card image" />
-                    <div class="card-body">
-                        <h5 class="card-title">Scary Movie 2</h5>
-                        <p class="card-text">A group of teens including Cindy Campbell (Anna Faris) and Brenda Meeks (Regina Hall) are invited to spend a night in Hell House. Professor Oldman (Tim Curry) has convinced them it is for a school project, but the night won't go past quietly. Master Kane (Richard Moll) is long dead, but still plans on enjoying himself, especially with Alex Monday (Tori Spelling). When things really start getting bad, the gang must work together to find a way to capture this ghostly menace.</p>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <img class="card-img" src="\Pictures\scarymovie.png" alt="Card image" />
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="card-body">
+                                <h2 class="card-title">Scary Movie 2</h2>
+                                <p class="card-text">A group of teens including Cindy Campbell (Anna Faris) and Brenda Meeks (Regina Hall) are invited to spend a night in Hell House. Professor Oldman (Tim Curry) has convinced them it is for a school project, but the night won't go past quietly. Master Kane (Richard Moll) is long dead, but still plans on enjoying himself, especially with Alex Monday (Tori Spelling). When things really start getting bad, the gang must work together to find a way to capture this ghostly menace.</p>
+                                <p class="card-text">FILMENS LÆNGDE HER</p>
+                                <p class="card-text">FILMENS GENRE HER</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -87,58 +95,57 @@
                             </div>
                         </div>
                     </div>
-                        <div class="carousel-item">
-                            <div class="container">
-                                <h5 class="text-danger text-center">Uge 49: 6 dec - 12 dec</h5>
-                            </div>
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col-lg-2">
-                                        <div class="card">
-                                            <div class="card-body">
-                                                <h5 class="card-title">Tidspunkt</h5>
-                                                <asp:Button ID="Button13" runat="server" Text="Button" OnClick="BestilButton_Click" />
-                                            </div>
+                    <div class="carousel-item">
+                        <div class="container">
+                            <h5 class="text-danger text-center">Uge 49: 6 dec - 12 dec</h5>
+                        </div>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-2">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Tidspunkt</h5>
+                                            <asp:Button ID="Button13" runat="server" Text="Button" OnClick="BestilButton_Click" />
                                         </div>
                                     </div>
-                                    <div class="col-lg-2">
-                                        <div class="card">
-                                            <div class="card-body">
-                                                <h5 class="card-title">Tidspunkt</h5>
-                                                <asp:Button ID="Button14" runat="server" Text="Button" OnClick="BestilButton_Click" />
-                                            </div>
+                                </div>
+                                <div class="col-lg-2">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Tidspunkt</h5>
+                                            <asp:Button ID="Button14" runat="server" Text="Button" OnClick="BestilButton_Click" />
                                         </div>
                                     </div>
-                                    <div class="col-xl-2">
-                                        <div class="card">
-                                            <div class="card-body">
-                                                <h5 class="card-title">Tidspunkt</h5>
-                                                <asp:Button ID="Button15" runat="server" Text="Button" OnClick="BestilButton_Click" />
-                                            </div>
+                                </div>
+                                <div class="col-xl-2">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Tidspunkt</h5>
+                                            <asp:Button ID="Button15" runat="server" Text="Button" OnClick="BestilButton_Click" />
                                         </div>
                                     </div>
-                                    <div class="col-xl-2">
-                                        <div class="card">
-                                            <div class="card-body">
-                                                <h5 class="card-title">Tidspunkt</h5>
-                                                <asp:Button ID="Button16" runat="server" Text="Button" OnClick="BestilButton_Click" />
-                                            </div>
+                                </div>
+                                <div class="col-xl-2">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Tidspunkt</h5>
+                                            <asp:Button ID="Button16" runat="server" Text="Button" OnClick="BestilButton_Click" />
                                         </div>
                                     </div>
-                                    <div class="col-lg-2">
-                                        <div class="card">
-                                            <div class="card-body">
-                                                <h5 class="card-title">Tidspunkt</h5>
-                                                <asp:Button ID="Button17" runat="server" Text="Button" OnClick="BestilButton_Click" />
-                                            </div>
+                                </div>
+                                <div class="col-lg-2">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Tidspunkt</h5>
+                                            <asp:Button ID="Button17" runat="server" Text="Button" OnClick="BestilButton_Click" />
                                         </div>
                                     </div>
-                                    <div class="col-lg-2">
-                                        <div class="card">
-                                            <div class="card-body">
-                                                <h5 class="card-title">Tidspunkt</h5>
-                                                <asp:Button ID="Button18" runat="server" Text="Button" OnClick="BestilButton_Click" />
-                                            </div>
+                                </div>
+                                <div class="col-lg-2">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Tidspunkt</h5>
+                                            <asp:Button ID="Button18" runat="server" Text="Button" OnClick="BestilButton_Click" />
                                         </div>
                                     </div>
                                 </div>
@@ -155,20 +162,29 @@
                 </div>
             </div>
         </div>
+    </div>
 
     <div class="container mt-3">
         <h3 class="text-danger text-center">Sal 2</h3>
     </div>
     <div class="container">
         <div class="row">
-            <div class="col-lg-4">
+            <div class="col-lg-2">
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-8">
                 <div class="card">
-                    <img class="card-img-top" src="\Pictures\spiderman.jpg" alt="Card image" />
-                    <div class="card-body">
-                        <h5 class="card-title">Spider-Man: No Way Home</h5>
-                        <p class="card-text">Peter Parker's secret identity is revealed to the entire world. Desperate for help, Peter turns to Doctor Strange to make the world forget that he is Spider-Man. The spell goes horribly wrong and shatters the multiverse, bringing in monstrous villains that could destroy the world.</p>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <img class="card-img" src="\Pictures\spiderman.jpg" alt="Card image" />
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="card-body">
+                                <h2 class="card-title">Spider-Man: No Way Home</h2>
+                                <p class="card-text">Peter Parker's secret identity is revealed to the entire world. Desperate for help, Peter turns to Doctor Strange to make the world forget that he is Spider-Man. The spell goes horribly wrong and shatters the multiverse, bringing in monstrous villains that could destroy the world.</p>
+                                <p class="card-text">FILMENS LÆNGDE HER</p>
+                                <p class="card-text">FILMENS GENRE HER</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -307,5 +323,4 @@
             </div>
         </div>
     </div>
-
 </asp:Content>
