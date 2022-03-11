@@ -4,6 +4,8 @@
     <div class="container mt-5">
         <h1 class="text-danger text-center">Program</h1>
     </div>
+
+    <!-- FILM 1 I SAL 1 -->
     <div class="container">
         <h3 class="text-danger text-center">Sal 1</h3>
     </div>
@@ -30,17 +32,16 @@
             </div>
         </div>
     </div>
+    <div class="container">
+        <h4 class="text-danger text-center">Filmen vises i perioden: <%= firstDate %> - <%= twelveDate1 %></h4>
+    </div>
     <div class="container-fluid">
         <div class="row">
             <div class="col-sm-12">
                 <div id="demo" class="carousel slide" data-bs-ride="carousel" data-bs-interval="false" data-bs-wrap="false">
-
                     <!-- The slideshow/carousel -->
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <div class="container">
-                                <h5 class="text-danger text-center">Uge 48: 29 nov - 5 dec</h5>
-                            </div>
                             <div class="container">
                                 <div class="row">
                                     <div class="col-lg-2">
@@ -95,9 +96,6 @@
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <div class="container">
-                                <h5 class="text-danger text-center">Uge 49: 6 dec - 12 dec</h5>
-                            </div>
                             <div class="container">
                                 <div class="row">
                                     <div class="col-lg-2">
@@ -164,6 +162,8 @@
         </div>
     </div>
 
+
+    <!-- FILM 2 I SAL 2 -->
     <div class="container mt-5">
         <h3 class="text-danger text-center">Sal 2</h3>
     </div>
@@ -190,17 +190,16 @@
             </div>
         </div>
     </div>
+    <div class="container">
+        <h4 class="text-danger text-center">Filmen vises i perioden: <%= firstDate %> - <%= twelveDate1 %></h4>
+    </div>
     <div class="container-fluid">
         <div class="row">
             <div class="col-sm-12">
                 <div id="demo1" class="carousel slide" data-bs-ride="carousel" data-bs-interval="false" data-bs-wrap="false">
-
                     <!-- The slideshow/carousel -->
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <div class="container">
-                                <h5 class="text-danger text-center">Uge 48: 29 nov - 5 dec</h5>
-                            </div>
                             <div class="container">
                                 <div class="row">
                                     <div class="col-lg-2">
@@ -255,9 +254,6 @@
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <div class="container">
-                                <h5 class="text-danger text-center">Uge 49: 6 dec - 12 dec</h5>
-                            </div>
                             <div class="container">
                                 <div class="row">
                                     <div class="col-lg-2">
@@ -323,4 +319,5 @@
             </div>
         </div>
     </div>
+
 </asp:Content>
