@@ -46,7 +46,7 @@
                                     <div class="col-lg-2">
                                         <div class="card">
                                             <div class="card-body">
-                                                <h5 class="card-title">Tidspunkt</h5>
+                                                <h5 class="card-title"><%= firstDate %></h5>
                                                 <asp:Button ID="Button1" runat="server" Text="Button" OnClick="BestilButton_Click" />
                                             </div>
                                         </div>
@@ -54,7 +54,7 @@
                                     <div class="col-lg-2">
                                         <div class="card">
                                             <div class="card-body">
-                                                <h5 class="card-title">Tidspunkt</h5>
+                                                <h5 class="card-title"><%= secondDate1 %></h5>
                                                 <asp:Button ID="Button2" runat="server" Text="Button" OnClick="BestilButton_Click" />
                                             </div>
                                         </div>
@@ -62,7 +62,7 @@
                                     <div class="col-xl-2">
                                         <div class="card">
                                             <div class="card-body">
-                                                <h5 class="card-title">Tidspunkt</h5>
+                                                <h5 class="card-title"><%= thirdDate1 %></h5>
                                                 <asp:Button ID="Button3" runat="server" Text="Button" OnClick="BestilButton_Click" />
                                             </div>
                                         </div>
@@ -70,7 +70,7 @@
                                     <div class="col-xl-2">
                                         <div class="card">
                                             <div class="card-body">
-                                                <h5 class="card-title">Tidspunkt</h5>
+                                                <h5 class="card-title"><%= fourthDate1 %></h5>
                                                 <asp:Button ID="Button4" runat="server" Text="Button" OnClick="BestilButton_Click" />
                                             </div>
                                         </div>
@@ -78,7 +78,7 @@
                                     <div class="col-lg-2">
                                         <div class="card">
                                             <div class="card-body">
-                                                <h5 class="card-title">Tidspunkt</h5>
+                                                <h5 class="card-title"><%= fifthDate1 %></h5>
                                                 <asp:Button ID="Button5" runat="server" Text="Button" OnClick="BestilButton_Click" />
                                             </div>
                                         </div>
@@ -86,7 +86,7 @@
                                     <div class="col-lg-2">
                                         <div class="card">
                                             <div class="card-body">
-                                                <h5 class="card-title">Tidspunkt</h5>
+                                                <h5 class="card-title"><%= sixDate1 %></h5>
                                                 <asp:Button ID="Button6" runat="server" Text="Button" OnClick="BestilButton_Click" />
                                             </div>
                                         </div>
@@ -94,58 +94,58 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="container">
-                            <h5 class="text-danger text-center">Uge 49: 6 dec - 12 dec</h5>
-                        </div>
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-lg-2">
-                                    <div class="card">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Tidspunkt</h5>
-                                            <asp:Button ID="Button13" runat="server" Text="Button" OnClick="BestilButton_Click" />
+                        <div class="carousel-item">
+                            <div class="container">
+                                <h5 class="text-danger text-center">Uge 49: 6 dec - 12 dec</h5>
+                            </div>
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-lg-2">
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <h5 class="card-title"><%= sevenDate1 %></h5>
+                                                <asp:Button ID="Button13" runat="server" Text="Button" OnClick="BestilButton_Click" />
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="col-lg-2">
-                                    <div class="card">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Tidspunkt</h5>
-                                            <asp:Button ID="Button14" runat="server" Text="Button" OnClick="BestilButton_Click" />
+                                    <div class="col-lg-2">
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <h5 class="card-title"><%= eightDate1 %></h5>
+                                                <asp:Button ID="Button14" runat="server" Text="Button" OnClick="BestilButton_Click" />
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="col-xl-2">
-                                    <div class="card">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Tidspunkt</h5>
-                                            <asp:Button ID="Button15" runat="server" Text="Button" OnClick="BestilButton_Click" />
+                                    <div class="col-xl-2">
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <h5 class="card-title"><%= nineDate1 %></h5>
+                                                <asp:Button ID="Button15" runat="server" Text="Button" OnClick="BestilButton_Click" />
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="col-xl-2">
-                                    <div class="card">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Tidspunkt</h5>
-                                            <asp:Button ID="Button16" runat="server" Text="Button" OnClick="BestilButton_Click" />
+                                    <div class="col-xl-2">
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <h5 class="card-title"><%= tenDate1 %></h5>
+                                                <asp:Button ID="Button16" runat="server" Text="Button" OnClick="BestilButton_Click" />
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="col-lg-2">
-                                    <div class="card">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Tidspunkt</h5>
-                                            <asp:Button ID="Button17" runat="server" Text="Button" OnClick="BestilButton_Click" />
+                                    <div class="col-lg-2">
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <h5 class="card-title"><%= elevenDate1 %></h5>
+                                                <asp:Button ID="Button17" runat="server" Text="Button" OnClick="BestilButton_Click" />
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="col-lg-2">
-                                    <div class="card">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Tidspunkt</h5>
-                                            <asp:Button ID="Button18" runat="server" Text="Button" OnClick="BestilButton_Click" />
+                                    <div class="col-lg-2">
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <h5 class="card-title"><%= twelveDate1 %></h5>
+                                                <asp:Button ID="Button18" runat="server" Text="Button" OnClick="BestilButton_Click" />
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -164,7 +164,7 @@
         </div>
     </div>
 
-    <div class="container mt-3">
+    <div class="container mt-5">
         <h3 class="text-danger text-center">Sal 2</h3>
     </div>
     <div class="container">
@@ -206,7 +206,7 @@
                                     <div class="col-lg-2">
                                         <div class="card">
                                             <div class="card-body">
-                                                <h5 class="card-title">Tidspunkt</h5>
+                                                <h5 class="card-title"><%= firstDate %></h5>
                                                 <asp:Button ID="Button7" runat="server" Text="Button" OnClick="BestilButton_Click" />
                                             </div>
                                         </div>
@@ -214,7 +214,7 @@
                                     <div class="col-lg-2">
                                         <div class="card">
                                             <div class="card-body">
-                                                <h5 class="card-title">Tidspunkt</h5>
+                                                <h5 class="card-title"><%= secondDate1 %></h5>
                                                 <asp:Button ID="Button8" runat="server" Text="Button" OnClick="BestilButton_Click" />
                                             </div>
                                         </div>
@@ -222,7 +222,7 @@
                                     <div class="col-xl-2">
                                         <div class="card">
                                             <div class="card-body">
-                                                <h5 class="card-title">Tidspunkt</h5>
+                                                <h5 class="card-title"><%= thirdDate1 %></h5>
                                                 <asp:Button ID="Button9" runat="server" Text="Button" OnClick="BestilButton_Click" />
                                             </div>
                                         </div>
@@ -230,7 +230,7 @@
                                     <div class="col-xl-2">
                                         <div class="card">
                                             <div class="card-body">
-                                                <h5 class="card-title">Tidspunkt</h5>
+                                                <h5 class="card-title"><%= fourthDate1 %></h5>
                                                 <asp:Button ID="Button10" runat="server" Text="Button" OnClick="BestilButton_Click" />
                                             </div>
                                         </div>
@@ -238,7 +238,7 @@
                                     <div class="col-lg-2">
                                         <div class="card">
                                             <div class="card-body">
-                                                <h5 class="card-title">Tidspunkt</h5>
+                                                <h5 class="card-title"><%= fifthDate1 %></h5>
                                                 <asp:Button ID="Button11" runat="server" Text="Button" OnClick="BestilButton_Click" />
                                             </div>
                                         </div>
@@ -246,7 +246,7 @@
                                     <div class="col-lg-2">
                                         <div class="card">
                                             <div class="card-body">
-                                                <h5 class="card-title">Tidspunkt</h5>
+                                                <h5 class="card-title"><%= sixDate1 %></h5>
                                                 <asp:Button ID="Button12" runat="server" Text="Button" OnClick="BestilButton_Click" />
                                             </div>
                                         </div>
@@ -263,7 +263,7 @@
                                     <div class="col-lg-2">
                                         <div class="card">
                                             <div class="card-body">
-                                                <h5 class="card-title">Tidspunkt</h5>
+                                                <h5 class="card-title"><%= sevenDate1 %></h5>
                                                 <asp:Button ID="Button19" runat="server" Text="Button" OnClick="BestilButton_Click" />
                                             </div>
                                         </div>
@@ -271,7 +271,7 @@
                                     <div class="col-lg-2">
                                         <div class="card">
                                             <div class="card-body">
-                                                <h5 class="card-title">Tidspunkt</h5>
+                                                <h5 class="card-title"><%= eightDate1 %></h5>
                                                 <asp:Button ID="Button20" runat="server" Text="Button" OnClick="BestilButton_Click" />
                                             </div>
                                         </div>
@@ -279,7 +279,7 @@
                                     <div class="col-xl-2">
                                         <div class="card">
                                             <div class="card-body">
-                                                <h5 class="card-title">Tidspunkt</h5>
+                                                <h5 class="card-title"><%= nineDate1 %></h5>
                                                 <asp:Button ID="Button21" runat="server" Text="Button" OnClick="BestilButton_Click" />
                                             </div>
                                         </div>
@@ -287,7 +287,7 @@
                                     <div class="col-xl-2">
                                         <div class="card">
                                             <div class="card-body">
-                                                <h5 class="card-title">Tidspunkt</h5>
+                                                <h5 class="card-title"><%= tenDate1 %></h5>
                                                 <asp:Button ID="Button22" runat="server" Text="Button" OnClick="BestilButton_Click" />
                                             </div>
                                         </div>
@@ -295,7 +295,7 @@
                                     <div class="col-lg-2">
                                         <div class="card">
                                             <div class="card-body">
-                                                <h5 class="card-title">Tidspunkt</h5>
+                                                <h5 class="card-title"><%= elevenDate1 %></h5>
                                                 <asp:Button ID="Button23" runat="server" Text="Button" OnClick="BestilButton_Click" />
                                             </div>
                                         </div>
@@ -303,7 +303,7 @@
                                     <div class="col-lg-2">
                                         <div class="card">
                                             <div class="card-body">
-                                                <h5 class="card-title">Tidspunkt</h5>
+                                                <h5 class="card-title"><%= twelveDate1 %></h5>
                                                 <asp:Button ID="Button24" runat="server" Text="Button" OnClick="BestilButton_Click" />
                                             </div>
                                         </div>
