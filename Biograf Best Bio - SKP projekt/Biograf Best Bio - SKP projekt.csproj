@@ -126,10 +126,10 @@
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
-    <Content Include="Information.aspx" />
+    <Content Include="Forside.aspx" />
     <Content Include="JavaScript.js" />
     <Content Include="Login.aspx" />
-    <Content Include="Main.aspx" />
+    <Content Include="Priser.aspx" />
     <Content Include="Program.aspx" />
     <Content Include="Register.aspx" />
     <Content Include="Scripts\bootstrap.js" />
@@ -201,12 +201,12 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Information.aspx.cs">
-      <DependentUpon>Information.aspx</DependentUpon>
+    <Compile Include="Forside.aspx.cs">
+      <DependentUpon>Forside.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Information.aspx.designer.cs">
-      <DependentUpon>Information.aspx</DependentUpon>
+    <Compile Include="Forside.aspx.designer.cs">
+      <DependentUpon>Forside.aspx</DependentUpon>
     </Compile>
     <Compile Include="Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>
@@ -260,6 +260,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Img\" />
     <Folder Include="Pictures\" />
   </ItemGroup>
   <ItemGroup>
