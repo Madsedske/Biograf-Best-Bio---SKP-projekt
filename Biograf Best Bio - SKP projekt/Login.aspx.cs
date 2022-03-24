@@ -26,13 +26,13 @@ namespace Biograf_Best_Bio___SKP_projekt
             {
                 conn.ConnectionString = ConfigurationManager.ConnectionStrings["Users"].ConnectionString; 
                 conn.Open();
-                using (SqlCommand cmd = new SqlCommand("select * from Users where Username = @Username and Password = @Password", conn))
+                using (SqlCommand cmd = new SqlCommand("select * from Users where mail = @mail and password = @password", conn))
                 {
                     // A stored procedure that finds the column shown as a string with an @, the type
                     // and sets it to the input value of the user - Customers
                     
-                    cmd.Parameters.AddWithValue("@Username", SqlDbType.VarChar).Value = username;
-                    cmd.Parameters.AddWithValue("@Password", SqlDbType.Text).Value = password;
+                    cmd.Parameters.AddWithValue("@mail", SqlDbType.VarChar).Value = username;
+                    cmd.Parameters.AddWithValue("@password", SqlDbType.Text).Value = password;
                    
                     SqlDataAdapter da = new SqlDataAdapter(cmd);
                     DataTable dt = new DataTable();

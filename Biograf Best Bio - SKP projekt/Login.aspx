@@ -1,6 +1,17 @@
 ﻿<%@ Page Title="Best Bio - Login" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Login.aspx.cs" Inherits="Biograf_Best_Bio___SKP_projekt.Login" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
+    <?
+    ini_set('session.use_cookies',0);
+        session_start();
+
+        if (!isset($_SESSION['thisUser'])){
+        $_SESSION['thisUser'] = "";
+        }
+
+        $_SESSION['calType']}"us";
+    ?>
+
             <section>
             <div class="container py-5 h-100">
                 <!--Color til login - #d86502/#02D8D0 -->
